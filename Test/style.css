@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(198, 233, 247);
+    border-bottom: 100px;
+}
+.container{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.content{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    color: green;
+    border-radius: 5px;
+
+}
+.Address{
+    border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 8px;
+  padding: 15px;
+  color: green;
+  border-radius: 5px;
+
+}
+.Family{
+    border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 8px;
+  padding: 15px;
+  color: green;
+  border-radius: 5px;
+}
+.Identification{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 8px;
+    padding: 15px;
+    color: green;
+    border-radius: 5px;
+}
+.Education{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 8px;
+    padding: 15px;
+    color: green; 
+     border-radius: 5px;
+    
+}
+.Approval{
+    border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 8px;
+  padding: 15px;
+  color: green;
+  border-radius: 5px;
+
+}
+.Fees{
+    border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 8px;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+.Communication{
+    border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 8px;
+  padding: 15px;
+  color: skyblue;
+  border-radius: 5px;
+
+}
+.Letter{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 8px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.la-angle-up{
+display: flex;
+justify-content: space-between;
+}
