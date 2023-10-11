@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="ghostwhite">
+    <fieldset>
+    <center><h1>LINCOLN UNIVERSITY</h1></center>
+   <center> <img src="Images/logo.png" width="150" height="70"></center>
+   <hr color="red">
+   <form action="Sub.php" method="POST">
+    <center><h2>COMPLAINT FORM</h2></center>
+    <fieldset>
+        <legend>Student Information</legend>
+    <form>
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" placeholder="firstName" name="firstName"></td>
+
+                <td>Last Name:</td>
+                <td><input type="text" placeholder="lastName" name="lastName"></td>
+
+            </tr>
+
+            <tr>
+                <td>Surname:</td>
+                <td><input type="text" placeholder="surName" name="surname"></td>
+
+                <tr>
+                    <td>Course Registration:</td>
+                    <td><input type="text" placeholder="courseregistration" name="courseregistration"></td>
+                </tr>
+
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="gender" value="male">Male</td>
+                    <td><input type="radio" name="gender" value="female">Female</td>
+
+                    <tr>
+                        <td>Department:</td>
+                        <td><select name="department" id="">
+                            <option value="5" selected>selected</option>
+                            <option value="Foundation">Foundation</option>
+                            <option value="Cyber Security">Cyber Security</option>
+                            <option value="Software Enginering">Software Enginering</option>
+                            <option value="Mass Communication">Mass Communication</option>
+                            <option value="Medcine">Medicine</option></select></td>
+                    </tr>
+
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="text" placeholder="email-id" name="email" id=""></td>
+                    </tr>
+                
+
+                    <tr>
+                        <td>Mobile no.:</td>
+                        <td><input type="text" placeholder="mobile" name="mobile"></td>
+                    </tr>
+    
+            </tr>
+        </table><br>
+        <fieldset>
+            <legend>Complaint</legend>
+            <input type="checkbox" name="name" required="required">Electricity
+            <input type="checkbox" name="name" required="required">Gas
+            <input type="checkbox" name="name" required="required">Water supply
+            <input type="checkbox" name="name" required="required">Security<br><br>
+            
+            <label for="complaint-description">Complaint Description:</label><br><br>
+            <textarea id="complaint-description" name="complaint-description" required width="500" height="200"></textarea>
+      
+    </fieldset>
+    </fieldset>
+    </form>
+    <br>
+    <br>
+    <hr width="100%" size="2px" color="red">
+    <h3>DECLARATION</h3>
+    <P>I declare that above Information which i filled are correct to the best of my knowledge.</P>
+    <br>
+    <form>
+        <input type="checkbox" name="name" required="required">I Agree
+        <hr width="100%" size="2px" color="red">
+        <center><tr>
+            <td><input type="submit" value="reset"></td>
+            <td><input type="submit" value="submit"></td>
+        </tr></center>
+    </form>
+    </fieldset>
+</form>
+</body>
+</html>
